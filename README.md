@@ -1,16 +1,19 @@
-# React + Vite
+This project is a real-time collaborative whiteboard application developed using React and the Zego SuperBoard SDK. It allows users to interact on a shared digital canvas with multiple drawing tools while maintaining smooth real-time synchronization. The application integrates the Zego Express Engine to handle live whiteboard functionality and user connection.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Developed a real-time whiteboard using React and Zego SuperBoard SDK.
 
-Currently, two official plugins are available:
+Integrated Zego Express Engine for live collaboration and room login.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Implemented drawing tools such as pen, text, shapes, eraser, and selection tool.
 
-## React Compiler
+Built a custom toolbox component for managing tool selection.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Managed application state for active tools using React hooks.
 
-## Expanding the ESLint configuration
+Designed and styled a responsive layout using CSS.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Handled whiteboard initialization, authentication, and rendering logic.
+
+Debugged and resolved layout and visibility issues to ensure proper display.
+
+Strengthened skills in React development and third-party SDK integration.
